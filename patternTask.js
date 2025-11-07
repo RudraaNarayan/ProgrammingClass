@@ -262,3 +262,59 @@ for(let i=1; i<=n; i++){
 //? * * * * *
 //? 0 * * * 0
 //? 0 0 * 0 0
+
+
+
+//! 07/11/2025
+//?1.
+/*
+let n=23;
+const reverseNumber= (n) => {
+    let sum =0;
+    while(n>0){
+        sum= sum + (n%10)**2;
+        n= Math.floor(n/2)
+    }
+    return sum;
+}
+console.log(reverseNumber(n));
+*/
+
+//?2.WAJCP to count how many zeros are present in given number
+//90765200
+/*
+let n= 90765200, digit=0, count=0;
+function check(n){
+    while(n>0){
+        digit= n%10
+        if(digit===0){
+            count++
+        }
+        n= Math.floor(n/10)
+    }
+    console.log(count,"no of 0 is present");
+}
+check(n);
+*/
+
+//?WAJSP to find first digit and a last digit of a number?
+
+let n = 123;
+
+const first$last = (n) => {
+
+    let last = n % 10;
+
+    while (n >= 10) {
+        n = Math.floor(n / 10)
+    }
+    let first=n;
+    console.log(`first digit is ${first} last digit is ${last}`);
+}
+first$last(n);
+
+
+//? WAJSP to extract only even digits from a even number?
+//? WAJSP to sum of the first and last digit of a number?
+//? WAJSP to get sum of the digits which is present between first and last digit?
+

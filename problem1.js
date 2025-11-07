@@ -61,6 +61,7 @@ for (let i=1; i<=5; i++) {
 }
 */
 
+/*
 for (let i=1; i<=5; i++) {
     var res="";   // An empty colon for every updation of i value it is empty.
     for (let j=1; j<=i; j++) {
@@ -68,3 +69,5 @@ for (let i=1; i<=5; i++) {
     }
     console.log(res);
 }
+*/
+
